@@ -3,12 +3,12 @@ const card = document.getElementById('card')
 
 const maxRecords = 151
 const limit = 1;
-let offset = 5
+let offset = 0;
 
 function convertPokemonCard(pokemon){
     return `
     
-        <header class="icons">
+        <header class="icons ">
             <span><a href="../index.html"><i class="fa-solid fa-arrow-left" ></i></a></span>
            <span><i class="heart fa-sharp fa-regular fa-heart" ></i></span> 
         </header>
